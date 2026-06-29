@@ -74,7 +74,7 @@ const CustomerDashboard = () => {
             <p className="text-gray-500 text-sm mb-4">{turf.location}</p>
             <div className="flex justify-between items-center">
               <span className="text-lg font-bold text-blue-600">
-                ₹{turf.pricePerHour}/hr
+                Price {turf.pricePerHour}/hr
               </span>
             </div>
           </div>

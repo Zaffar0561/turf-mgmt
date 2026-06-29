@@ -11,6 +11,7 @@ import turfRouter from "./src/routes/turf.routes.js";
 import roleBasedRouter from "./src/routes/role_based.routes.js";
 import uploadRouter from "./src/routes/upload.routes.js";
 
+//to fix cors error
 app.use(
   cors({
     origin: "http://localhost:5173",
